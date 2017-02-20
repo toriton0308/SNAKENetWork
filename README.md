@@ -12,8 +12,10 @@ SNAKENetWorkのissueTrackerです。
 
 ## サーバー情報
 公式ウェブサイト
-- http://www.mcplay.biz/
+http://www.mcplay.biz/
+
 公式Discordサーバー
-- https://discordapp.com/invite/gNg4qgx
+https://discordapp.com/invite/gNg4qgx
+
 公式twitter
-- https://twitter.com/SNAKENetWork
+https://twitter.com/SNAKENetWork
