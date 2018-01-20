@@ -8,11 +8,11 @@ SNAKENetWorkのissueTrackerです。
 もしも、上記のものがなかった場合、運営チームは不具合の再現がすぐに出来ず、あなたのIssueはクローズされる可能性が高くなります。
 
 ## サーバーダウンの報告
-サーバーダウンの報告は、Githubのissueでも可能ですが、即座な対応は不可能である場合が多いです。もしも、即座な対応を望む場合は、SNAKENetWork公式Discordの#support チャンネルに@SNAKEで連絡して下さい。
+サーバーダウンの報告は、Githubのissueでも可能ですが、即座な対応は不可能である場合が多いです。もしも、即座な対応を望む場合は、SNAKENetWork公式Discordの#support チャンネルで@SNAKEにメンションで連絡して下さい。
 
 ## サーバー情報
 公式ウェブサイト
-http://www.mcplay.biz/
+https://www.mcplay.biz/
 
 公式Discordサーバー
 https://discordapp.com/invite/gNg4qgx
