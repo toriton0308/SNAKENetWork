@@ -1,0 +1,15 @@
+broadcast:
+  pre: '&9System&7>>&cオートセーブ中...'
+  post: '&9System&7>>&cオートセーブ完了'
+broadcastbackup:
+  pre: '&9System&7>>&cオートバックアップ中...'
+  post: '&9System&7>>&cオートバックアップ完了'
+broadcastpurge:
+  pre: '&9System&7>>&cオートパージ中...'
+  post: '&9System&7>>&cオートパージ完了'
+autorestart:
+  restarting: '&9System&7>>&cServer is restarting'
+  countdown: '&9System&7>>&cServer will restart in {SECONDS} seconds'
+worldregen:
+  kickmessage: '&9System&7>>&cServer is regenerating map, please come back later'
+insufficentpermissions: '&9System&7>>&cYou do not have access to that command.'
