@@ -1,0 +1,95 @@
+# ====================================================
+# This is the language file
+# Edit this to your heart's content ,but if you mess something up ,its unpredictable what will happen!
+# Its wise to keep config file backups after doing major editings
+# Color codes with symbol '&' work here.
+# Tip: if you want to add an apostrophe, you need to add two of them (I''ve watched a movie), or it will break.
+# ====================================================
+
+no_defined_command: '使い方： &c/en help'
+no_such_command: '&cコマンドが存在しません。'
+exception: '&c例外が発生しました。'
+toggle_on: 'You have toggled&2&l ON&b your custom enchants in enchanting table!'
+toggle_off: 'You have toggled&c&l OFF&b your custom enchants in enchanting table!'
+toggle_on_particles: 'You have toggled&2&l ON&b particles for enchants!'
+toggle_off_particles: 'You have toggled&c&l OFF&b particles for enchants!'
+toggle_on_notifications: 'You have toggled&2&l ON&b the enchant notifications!'
+toggle_off_notifications: 'You have toggled&c&l OFF&b the enchant notifications!'
+particles_are_off: 'Particles are already off server wide! This command won''t do anything now.'
+
+not_allowed: 'You''re not allowed to do that!'
+not_allowed_others: 'You can''t enchant for other players!'
+no_found: 'No enchants found! (/en enchant <player> <enchant type> [1-5]).'
+no_player_found: 'No player &4%s&c found! (/en enchant <player> <enchant type> [1-5]).'
+colliding_found: 'Two or more colliding enchants found! Try a different name.'
+level_must_number: 'Wrong command! Level must be a number. (/en enchant <player> <enchant type> [1-5])'
+max_level: 'The maximum level for this enchant is &c'
+invalid_item: 'You must apply this enchant for a valid item!'
+available_enchants: 'Available: &a'
+enchanted_successful: 'Successfuly enchanted!'
+deenchanted_successful: 'Successfuly removed enchant!'
+no_anvils: 'Anvils are disabled with EnchantsPlus enchanted items!'
+anvil_warning: '&cNOTE&f: &bTake the middle item out and put it in again to see full enchants!'
+initiate_pvp: '&cWARNING:&b You have initiated PvP/PvE! Disabling your flight for &c%s &bseconds..'
+victim_pvp: '&cWARNING:&b You have started a combat! Disabling your flight for &c%s &bseconds..'
+no_pvp_done: 'You can now fly again!'
+console_command: 'You''re a console, you can''t do that!'
+too_many_total: 'Too many total enchants! Maximum allowed: %s'
+too_many_custom: 'Too many custom enchants! Maximum allowed: %s'
+
+enchant_disabled: '&c%s is disabled here!'
+
+command_list_sword: '&b&lSword&b enchants:'
+command_list_armor: '&b&lArmor&b enchants:'
+command_list_tools: '&b&lTool&b enchants:'
+command_list_bow: '&b&lBow&b enchants:'
+command_list_all: '&bOther enchants:'
+
+sender_not_player: 'Only players are allowed to do this command!'
+no_ench_found: 'No enchant found! Try a different name.'
+not_right_amount_of_args: 'Invalid amount of arguments!'
+no_permission: 'No permission for this command!'
+no_perm_for_help: '&cYou don''t have permissions for any of the commands..'
+help_enchant: '&2enchants an item the specified player is holding in hand.'
+help_list: '&2Lists all enchants. Red color means they''re disabled.'
+help_reload: '&2Reloads the config.'
+help_info: '&2Shows information about an enchant.'
+help_toggle: '&2Toggles custom enchants in enchanting table.'
+help_toggle_particles: '&2Toggles particles when using certain enchants.'
+help_toggle_notifications: '&2Toggles notifications for enchants such as venom, slowness, etc.'
+
+fixenchants_no_item_in_hand: 'You''re not holding an item in hand!'
+fixenchants_aint_need_fixing: 'This item doesn''t need fixing.'
+fixenchants_fixed: 'Item has been fixed!'
+
+reloading: '&7Reloading..'
+reloaded: '&7Reloaded!'
+
+ench_elec_concussion: '敵にコンカッションを与えました。'
+ench_frozen: '敵を凍結しました。'
+ench_poisoned: '敵に毒を与えました。'
+ench_blinded: '敵に盲目を与えました。'
+ench_slowed: '敵に移動速度低下を与えました。'
+ench_withered: '敵をウィザー状態にしました。'
+ench_leeched: 'You''ve leeched %s hearts off of your enemy!'
+quake_on_cooldown: 'クエイクはクールダウン中です。 %s秒後に使用可能'
+
+# %s in this case is the prefix, if you want to you can remove it
+flight_not_work: '%sYour flight boots suddenly stopped working in this area!'
+
+shop_ench_not_found_1: 'Enchant not found: ''%s'''
+shop_ench_not_found_2: 'Take note, that it has to be all-characters-sensitive. Using custom/old names defined in config files works too.'
+shop_wrong_level_format: 'Wrong level format: ''%s'''
+shop_wrong_level: 'The level you defined was too low/high for that enchant!'
+shop_wrong_price_format: 'Wrong price format: ''%s'''
+shop_wrong_item: 'Wrong item you''re holding, can''t enchant that.'
+shop_item_already_has_enchant: 'That item already has the enchant.'
+shop_not_enough_money: 'You don''t have enough money!'
+shop_purchased: 'Successfully purchased!'
+shop_no_vanilla_enchants: 'Your item has to have at least one normal enchant before purchasing an enchant on it.'
+
+vault_not_loaded: 'You tried making a shop sign, but Vault isn''t loaded!'
+
+sign_broken: 'This sign is broken! Recreate it for it to work properly.'
+
+# ---END OF CONFIGS---

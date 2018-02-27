@@ -1,0 +1,104 @@
+global:
+  command:
+    invalid-syntax: '&aInvalid syntax!'
+    invalid-arguments: '&aInvalid arguments!'
+  player:
+    no-permission: '&aYou don''t have permission!'
+    is-offline: '&aThe player is offline!'
+    not-player: '&aYou must be a player!'
+  config:
+    reloaded: '&aThe configuration files have been reloaded!'
+  plugin:
+    registered-to: '&aThis plugin is registered to: §b{USER}'
+mystery-boxes:
+  set: '&aMystery Boxes set!'
+  add: '&aMystery Boxes added!'
+  remove: '&aMystery Boxes removed!'
+  all-set: '&aMystery Boxes set!'
+  all-add: '&aMystery Boxes added!'
+  all-remove: '&aMystery Boxes removed!'
+  add-random: '&aRandom Mystery Boxes added!'
+  checkboxes: '&aThe player''s Mystery Boxes: &e{AMOUNT}'
+  checkdust: '&aThe player''s Mystery Dust: &e{AMOUNT}'
+  no-boxes: '&aThe player has no Mystery Boxes!'
+  already-opening: '&aYou are already opening a Mystery Box!'
+mystery-vaults:
+  already-in-use: '&aThis Mystery Vault is already in use!'
+  is-not-vault: '&aThis block is not Mystery Vault!'
+mystery-dust:
+  set: '&aMystery Dust set!'
+  add: '&aMystery Dust added!'
+  all-set: '&aMystery Dust set!'
+  all-add: '&aMystery Dust added!'
+modes:
+  enter: '&aYou have entered the &b{MODE} &amode!'
+  exit: '&aYou have exited the &b{MODE} &amode!'
+  mystery-vault-added: '&aThis block is now Mystery Vault!'
+  mystery-vault-removed: '&aThis block is no longer Mystery Vault!'
+  mystery-vault-already: '&aThis block is already Mystery Vault!'
+craft-boxes:
+  cant-be-crafted: '&aThis Mystery Box can''t be crafted!'
+  not-enough-dust: '&aYou don''t have enough Mystery Dust!'
+  crafted: '&aYou crafted {MYSTERY_BOX}&a!'
+menus:
+  mystery-vault:
+    title: Mystery Vault
+    empty-slot-item-name: '&7Empty Slot'
+    empty-slot-item-lore:
+    - '&8This slot is empty!'
+    craft-boxes-item-name: '&aCraft Boxes'
+    craft-boxes-item-lore:
+    - ''
+    - '&7Craft Mystery Boxes using'
+    - '&7Mystery Dust obtained by'
+    - '&7getting same loot.'
+    - ''
+    - '&7Available: &d{MYSTERY_DUST} Mystery Dust'
+    - ''
+    - '&eClick to browse!'
+    statistics-item-name: '&aStatistics'
+    statistics-item-lore:
+    - '&7Mystery Dust: &d{MYSTERY_DUST}'
+    - '&7Dust Gained: &a{DUST_GAINED}'
+    - '&7Boxes Opened: &a{BOXES_OPENED}'
+    - '&7Boxes Crafted: &a{BOXES_CRAFTED}'
+    - '&7Time Spent: &a{TIME_SPENT}'
+  confirmation:
+    title: Are you sure?
+    open-one-item-name: '&a&lYES'
+    open-one-item-lore:
+    - ''
+    - '&7Open a single &7{MYSTERY_BOX}.'
+    - ''
+    - '&7Available: &b{MYSTERY_BOXES} Mystery Boxes'
+    - ''
+    - '&c&oThis process can''t be undone!'
+    - '&eClick to open!'
+    open-multiple-item-name: '&a&lYES'
+    open-multiple-item-lore:
+    - ''
+    - '&7Open up to five &7{MYSTERY_BOX}.'
+    - ''
+    - '&7Available: &b{MYSTERY_BOXES} Mystery Boxes'
+    - ''
+    - '&c&oThis process can''t be undone!'
+    - '&eClick to open!'
+    go-back-item-name: '&c&lNO'
+    go-back-item-lore:
+    - '&7Click to go back!'
+  craft-boxes:
+    title: Craft Boxes
+    craft-box-item-name: '&eCraft &8- {MYSTERY_BOX}'
+    craft-box-item-lore:
+    - ''
+    - '&7Craft Mystery Boxes to later'
+    - '&7open them in the Mystery Vault.'
+    - ''
+    - '&7Cost: &d{CRAFTING_COST} Mystery Dust'
+    - '&7Available: &b{MYSTERY_BOXES} Mystery Boxes'
+    - ''
+    - §c§oThis process can't be undone!
+    - '&eClick to craft!'
+    go-back-item-name: '&cGo Back'
+    go-back-item-lore:
+    - '&7Click to go back!'
